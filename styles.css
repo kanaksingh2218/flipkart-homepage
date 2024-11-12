@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #e8ebef;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    margin-bottom: .5rem;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    gap: 2rem;
+}
+
+ input[type=text] {
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #edf3f8;
+    background-image: url(images/search.svg);
+    background-position: 10px 10px;
+     background-repeat: no-repeat;
+    padding: 12px 12px 12px 40px;
+    border: none;
+    height: 40px;
+    width: 45rem;
+}
+.log-in{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: .5rem;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap:.5rem;
+}
+main{ 
+margin-inline: 2rem;
+}
+.widgets{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-around;
+    padding-inline: 8rem;
+    height: 8rem ;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid white;
+    margin-bottom: 1rem;
+}
+.section{
+    /* border: 1px solid whitesmoke ; */
+}
+.deals{
+    display: flex;
+  align-items:center;
+  position:relative;
+  overflow:hidden;
+  gap:1rem;
+}
+.container{
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+}
+
+@media (max-width: 980px) {
+    input[type=text]{
+        width: 300px;
+        font-size: 14px;
+        background-image: 10px;
+    }
+    
+}
+
+@media (max-width: 760px){
+    .deals{
+        display: flex;
+        flex-direction: column;
+    }
+    .accessories{
+        width:60px;
+        height:60px;
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        font-size: 8px;
+    }
+    .container{
+        width: 200px;
+        height: 250px;
+    }
+    .img1{
+        width: 100px;
+        height: 150px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
