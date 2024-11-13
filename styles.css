@@ -99,7 +99,7 @@ margin-inline: 2rem;
         display: flex;
         flex-direction: column;
     }
-    .accessories{
+    .dropdown .accessories{
         width:60px;
         height:60px;
         display: flex;
@@ -119,6 +119,13 @@ margin-inline: 2rem;
 }
 
 
+select{
+    border: none;
+    font-size: 1rem; 
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
 
 
 
